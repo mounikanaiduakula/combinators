@@ -4,33 +4,129 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        .dropdown{
-            display: none;
-        }
-        .dropdown a{
-            display: block;
-        }
-     .drop1:hover .dropdown{
-        display: block;
-     }
-    </style>
+     <style>
+.sub{
+  position: relative;
+  display: inline-block;
+}
+
+.sub2 {
+  display: none;
+  position: absolute;
+  background-color:white;
+  min-width: 160px;
+  padding: 12px 13px;
+
+}
+
+.sub:hover .sub2 {
+  display: block;
+  color: green;
+}
+.sub3{
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+
+}
+.sub4 {
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 160px;
+    padding: 12px 13px;    
+}
+.sub3:hover .sub4 {
+    display: block;
+    color: green;
+     
+}
+.sub5{
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+
+}
+.sub6 {
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 160px;
+    padding: 12px 13px;    
+}
+.sub5:hover .sub6 {
+    display: block;
+    color: green;
+     
+}
+.sub7{
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+
+}
+.sub8 {
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 160px;
+    padding: 12px 13px;    
+}
+.sub7:hover .sub8 {
+    display: block;
+    color: green;
+     
+}
+
+
+</style>
 </head>
 <body>
-    <div class="nav">
-        <div class="drop">
-            <button class="drop1">Courses</button>
-             <div class="dropdown">
-                <a href="#">DSA TO Development</a>
-                <a href="#">For working professionals</a>
-                <a href="#">For Students</a>
-                <a href="#">Full Stack Development</a>
-                <a href="#">All Courses</a>
-             </div>
-        </div>
-    </div>
-
    
+
+<div class="sub">
+  <h3>course</h3>
+  <div class="sub2">
     
+    <p>Complete Data Analytics Program</p>
+    <p>Complete Backend Development Course</p> 
+    
+    
+    <p>DSA to Development</p>
+    <p>GATE 2026 Prep</p>
+    <p>Get 3 IBM Certifications</p>
+    <p>For Working Professionals</p>
+  </div>
+
+</div>
+  <div class="sub3">
+    <h3>Placement</h3>
+    <div class="sub4">
+        <P>Placement prep with DSA</P>
+        <P>Tech Interview 101-For Working Professional</P>
+        <P>DSA to Development</P>
+        <P>DSA-sELF Paced</P>
+        <P>System Design</P>
+        <P>Practice</P>
+    </div>
+  </div>
+  <div class="sub5">
+    <h3>Data Science</h3>
+    <div class="sub6">
+        <p>Data science & Machine learning</p>
+        <p>Data science Training Program</p>
+        <p>Data Analytics-live</p>
+        <p>Data Analytics classroom program</p>
+    </div>
+  </div>
+  <div class="sub7">
+    <h3>GATE</h3>
+    <div class="sub8">
+        <p>GATE CS</p>
+        <p>GATE DA</p>
+        <p>GATE EC</p>
+        <p>GATE ISRO</p>
+    </div>
+  </div>
 </body>
 </html>

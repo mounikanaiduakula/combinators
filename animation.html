@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .sun2{
+            height:150px;
+            background-color:yellow;
+            position: absolute;
+            border-radius: 83%;
+           /* margin-left: 500px;
+            margin-top: 250px;*/
+            /* animation-direction: alternate; */
+            animation-name:move;
+            animation-iteration-count: infinite;
+            animation-duration: 1s;
+            animation-direction: alternate-reverse;
+            /* z-index: 2; */
+            width:150px;
+            top:68px;
+            left:160px;
+        }
+        .sun{
+            height: 300px;
+            width: 500px;
+           /* border-radius: 50%;*/
+            background-color:orange;
+            position: relative;
+            margin-left: 400px; 
+            margin-top: 170px;
+            background: linear-gradient(to bottom,darkgoldenrod,#141414);
+            /* z-index: 1; */
+            /* animation-timing-function: ease-in-out; */
+        }
+        
+        body{
+            background-color: black;
+            border-radius: 5px;
+        }
+       
+        @keyframes move{
+            0%{
+              box-shadow: 30px 10px gold;
+            }
+            100%{
+              box-shadow: 0 -15px 10px 10px gold,0 0 70px 40px gold; 
+            }
+        }
+    </style>
+</head>
+<body>
+   <div>
+      <div class="sun">
+      <div class="sun2"></div>
+    </div>
+   </div>
+</body>
+</html>
