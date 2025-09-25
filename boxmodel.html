@@ -11,38 +11,11 @@
             box-sizing: border-box;
         }
         .container{
-            padding:20px;
+            padding:10px;
         }
-        .main{
+        .child{
             display:inline-block;
-        }
-        .post{
-            display: inline-block;
-            padding:20px;
-        }
-        .cherries{
-            display: inline-block;
-            padding:20px;
-        }
-        .vegetablepasta{
-            display: inline-block;
-            padding: 20px;
-        }
-        .food1{
-            display: inline-block;
-            padding: 20px;
-        }
-        .food2{
-            display: inline-block;
-            padding: 20px;
-        }
-        .food3{
-             display: inline-block;
-             padding: 20px;
-        }
-        .food4{
-            display:inline-block;
-            padding:20px;;
+            padding: 5px;
         }
         .footer{
              padding:100px;
@@ -81,6 +54,29 @@
         .tag.active{
             background-color: black;
         }
+        @media screen and (min-width:320px) and (max-width:425px)
+    {
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        .container{
+            padding:10px;
+        }
+        .child{
+           
+            height:1200px;
+            width:750px
+        }
+        .child>img{
+            height:1200px;
+            width: 750px;
+        }
+        .child>h2,p{
+            font-size:40px;
+        }
+    }
     </style>
 </head>
 <body>
@@ -88,47 +84,44 @@
         <center><h1>My Food </h1></center>
     </div>
     <div class="container">
-        <div class="main">
-            <div class="sandwich">
-                <img src="https://www.w3schools.com/w3images/sandwich.jpg" alt="sandwich" width="300">
+            <div class="child">
+                <img src="https://www.w3schools.com/w3images/sandwich.jpg" alt="" width="300">
                 <h2>The Perfect Sandwich,<br> A Real NYC Classic</h2>
                 <p>Just some random text, lorem ipsum<br> text praesent tincidunt ipsum lipsum.</p>
             </div>
-        </div>
-            <div class="post">
-                <img src="https://www.w3schools.com/w3images/steak.jpg" alt="steak" width="300"> 
+            <div class="child">
+                <img src="https://www.w3schools.com/w3images/steak.jpg" alt="" width="300"> 
                 <h2>The Perfect Sandwich,<br> A Real NYC Classic</h2>
                 <p>Just some random text, lorem ipsum<br> text praesent tincidunt ipsum lipsum.</p>
             </div>
-            <div class="cherries">
-                <img src="https://www.w3schools.com/w3images/cherries.jpg" alt="cherries" width="300"> 
+            <div class="child">
+                <img src="https://www.w3schools.com/w3images/cherries.jpg" alt="" width="300"> 
                 <h2>The Perfect Sandwich,<br> A Real NYC Classic</h2> 
                 <p>Just some random text, lorem ipsum<br> text praesent tincidunt ipsum lipsum.</p>         
             </div>
-            <div class="vegetablepasta">
-                <img src="https://www.w3schools.com/w3images/wine.jpg" alt="vegetablepasta" width="300">
+            <div class="child">
+                <img src="https://www.w3schools.com/w3images/wine.jpg" alt="" width="300">
                 <h2>The Perfect Sandwich,<br> A Real NYC Classic</h2> 
                 <p>Just some random text, lorem ipsum<br> text praesent tincidunt ipsum lipsum.</p>         
-   
-            </div>
+             </div>
     
-            <div class="food1">
-                <img src="https://www.w3schools.com/w3images/popsicle.jpg" alt="food1" width="300">
+            <div class="child">
+                <img src="https://www.w3schools.com/w3images/popsicle.jpg" alt="" width="300">
                 <h2>All I Need Is a Popsicle</h2>
                 <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
             </div>
-            <div class="food2">
-                <img src="https://www.w3schools.com/w3images/salmon.jpg" alt="food2" width="300">
+            <div class="child">
+                <img src="https://www.w3schools.com/w3images/salmon.jpg" alt="" width="300">
                 <h2>All I Need Is a Popsicle</h2>
                 <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
             </div>
-            <div class="food3">
-                <img src="https://www.w3schools.com/w3images/sandwich.jpg" alt="food3" width="300">
+            <div class="child">
+                <img src="https://www.w3schools.com/w3images/sandwich.jpg" alt="" width="300">
                 <h2>All I Need Is a Popsicle</h2>
                 <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
             </div>
-            <div class="food4">
-                <img src="https://www.w3schools.com/w3images/croissant.jpg" alt="food4" width="300">
+            <div class="child">
+                <img src="https://www.w3schools.com/w3images/croissant.jpg" alt="" width="300">
                 <h2>All I Need Is a Popsicle</h2>
                 <p>Lorem ipsum text praesent tincidunt </p>
             </div>
@@ -141,6 +134,7 @@
      <center><i><p>With Passion For Real, Good Food<p></i></center>
     <center><p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world <br>with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus<br> ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
       </p>
+      
     </center>
     <div class="footer">
        <div class="tag1-title">FOOTER</div>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 20px;
+            height: 100vh;
+        }
+        .container1{
+            background-color: bisque;
+            grid-column: 1/2;
+            grid-row: 1/4;
+        }
+       .container2{
+            background-color: pink;
+            grid-column: 1/2;
+            grid-row: 4/9;
+        }
+        .container3{
+            background-color: bisque;
+            grid-column: 2/3;
+            grid-row: 1/7;
+        }
+        .container4{
+            background-color: pink;
+            grid-column: 2/3;
+            grid-row: 7/9;
+        }
+        .container5{
+            background-color: bisque;
+            grid-column:3/4 ;
+            grid-row:1/4 ;
+        }
+        .container6{
+            background-color: pink;
+            grid-column: 3/4;
+            grid-row: 4/9;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="container1"></div>
+        <div class="container2"></div>
+        <div class="container3"></div>
+        <div class="container4"></div>
+        <div class="container5"></div>
+        <div class="container6"></div>
+    </div>
+</body>
+</html>
