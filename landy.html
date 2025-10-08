@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     .parent2{
+        display: inline-block;
+     }
+     .parent1{
+        margin-left: 100px;
+     }
+     .parent2>h1{
+        color:blue;
+        font-size:40px;
+     }
+     .parent2>p{
+        color:indigo;
+       font-size: 25px;
+     }
+     .parent3{
+        display:inline-block;
+        height:300px;
+        width: 400px;
+     }
+    .contact1{
+        display:inline-block;
+        height:300px;
+        width:400px;
+        margin-left: 150px;
+    }
+    .contact2{
+        display: inline-block;
+        font-size: 30px;
+        padding: 20px;
+        color: indigo;
+     }
+     .content{
+        margin-left: 50px;
+     }
+     .content2{
+        display:inline-block;
+        height:300px;
+        width:400px;
+        
+    }
+    .para2{
+        display: inline-block;
+        font-size: 20px;
+        margin-left: 150px;
+        color: indigo;
+     }
+    .para1{
+        display:inline-block;
+        height:300px;
+        width:400px;
+        margin-left: 150px;
+    }
+    .para2 h9{
+        font-size: 30px;
+        color: indigo;
+    }
+    .content1{
+        display: inline-block;
+        font-size: 20px;
+        color: indigo;
+        margin-left: 150px;
+     }
+     .content1 h3{
+        font-size: 1.5em;
+     }
+     .child1>h2,h6{
+        color:black;
+     }
+    header{
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+            padding:5px;
+            background: white;
+           /* margin-left: 190px;*/
+            margin-right: 50px;
+        }
+    header a{
+            color:black;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 20px 50px;
+            border-radius: 10px;
+            font-size: 20px;
+        }
+        header a:hover{
+            background-color:blue;
+            color:white;
+        }
+        header a.box{
+            background-color:blue;
+            color:white;
+        }
+        .parent2 button{
+            margin-right: 50px;
+            padding:10px;
+            width:100px;
+            background-color: skyblue;
+            margin-bottom: 100px;
+        }
+        .child1 button{
+            margin-left: 400px;
+            padding:10px;
+            width:100px;
+            background-color: blue;
+            margin-bottom: 100px;
+            margin-left: 450px;
+        }
+         .child1 h2{
+            font-size: 40px;
+            margin-left: 300px;
+            line-height: 1.1;
+            margin-bottom: 8px;
+            color:blue;
+            margin-left: 450px;
+        }
+        .child1 h6{
+            font-size: 25px;
+            margin-left: 200px;
+            line-height: 1.4;
+            margin-top: 0;
+            color: indigo;
+            margin-left: 450px;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <header>
+           <h1>Landy</h1>
+           <a href="#">About</a>
+           <a href="#">Mission</a>
+           <a href="#">Product</a>
+           <a href="#">Contact</a>
+        </header>
+    </div>
+    <div class="parent1">
+        <div class="parent2">
+           <h1>Landing page template<br> for developers&startup</h1>
+           <p>Beautifully designed templates using<br> React.js, ant design and styled-components!<br> Save weeks of time and build your landing page in<br> minutes.</p>
+           <button type="button">Explore</button>
+           <button type="button">Learn more</button>
+        </div>
+        <div class="parent3">
+            <img src="https://landy-web.netlify.app/img/svg/developer.svg">
+        </div>
+    </div>
+    <div class="child1">
+        <h2>Introduce your product<br> quickly & effectively</h2>
+        <h6>Landy comes withmulti-lingual support, all of the content is <br>stored in the JSON files, so that you can manage<br> the texts without having any prior knowledge in<br> developing web applications using React.js.</h6>
+        <button type="button">Get started</button>
+    </div>
+    <div class="contact">
+        <div class="contact1">
+            <img src="https://landy-web.netlify.app/img/svg/graphs.svg">    
+        </div>
+        <div class="contact2">
+            <h3>Light ,fast& responsive</h3>
+            <h7>This template is ready to use, so you don't need to<br> change anything at a component level, unless you want<br> to customize the default styling.</h7>
+        </div>
+    </div>
+    <div class="content">
+        <div class="content1">
+            <h3>Ready made sections</h3>
+            <h8>Landy comes with a set of ready to use sections<br> to help you easily create a landing page for your own bran<br>d, with all the content your startup desires. In order to replace any <br>dummy elements (text, image, etc..) all you need to do is go to co<br>ntent folder and input your real content.</h8>
+        </div>
+        <div class="content2">
+            <img src="https://landy-web.netlify.app/img/svg/product-launch.svg">
+        </div>
+    </div>
+    <div class="para">
+        <div class="para1">
+            <img src="https://landy-web.netlify.app/img/svg/waving.svg">
+        </div>
+        <div class="para2">
+            <h9>That's about it</h9>
+            <h5>If you are familiar with React, or SPA frameworks in general,<br> there shouldn't be any confusing parts about this template.<br> if not, you can always reach out to me and I'll try<br> me best to answeryour questions.</h5>
+        </div>
+    </div>
+</body>
+</html>
